@@ -4,4 +4,4 @@ CXXFLAGS = -Wall
 CXX = g++
 
 all: $(OBJECTS)
-	$(CXX) -g -std=c++11 $(CXXFLAGS) -o $(EXEC) $(OBJECTS)
+	$(CXX) -g -pthread -std=c++11 $(CXXFLAGS) -o $(EXEC) $(OBJECTS)
