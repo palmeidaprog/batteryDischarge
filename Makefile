@@ -1,4 +1,4 @@
-OBJECTS = src/main.cpp
+OBJECTS = src/main.cpp src/batteryworkers.cpp
 EXEC = bin/bdisch
 CXXFLAGS = -Wall
 CXX = g++

@@ -1,3 +1,4 @@
+#include "batteryworkers.h"
 #include <iostream>
 #include <cstdlib>
 #include <vector>
